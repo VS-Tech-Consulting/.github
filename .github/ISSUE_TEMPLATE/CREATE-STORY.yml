@@ -1,6 +1,6 @@
 name: "💡 Create Story"
 description: Create a new ticket for a story
-title: ""
+title: "<>"
 labels: [
   "Story"
 ]

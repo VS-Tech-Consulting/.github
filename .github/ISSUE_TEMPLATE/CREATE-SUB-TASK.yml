@@ -1,6 +1,6 @@
 name: "✅  Create Sub-Task"
 description: Create a new sub-task
-title: ""
+title: "<>"
 labels: [
   "Sub-Task"
 ]

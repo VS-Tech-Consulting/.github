@@ -1,6 +1,6 @@
 name: "✅  Create Task"
 description: Create a new ticket for a task
-title: ""
+title: "<>"
 labels: [
   "Task"
 ]
