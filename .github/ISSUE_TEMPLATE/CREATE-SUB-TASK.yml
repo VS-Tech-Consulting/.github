@@ -1,0 +1,14 @@
+name: "✅  Create Sub-Task"
+description: Create a new sub-task
+title: ""
+labels: [
+  "Sub-Task"
+]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: Provide a brief explanation of the sub-task
+    validations:
+      required: true

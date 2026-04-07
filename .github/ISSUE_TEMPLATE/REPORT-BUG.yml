@@ -1,6 +1,6 @@
 name: "🐛 Report a Bug"
 description: Create a new ticket for a bug.
-title: "<title>"
+title: ""
 labels: [
   "Bug"
 ]
