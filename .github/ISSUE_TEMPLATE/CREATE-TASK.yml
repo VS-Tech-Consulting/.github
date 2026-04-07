@@ -18,7 +18,6 @@ body:
       label: "Acceptance Criteria"
       description: Indicate the acceptance criteria of this task
       value: |
-        Acceptance Criteria:
         - 
     validations:
       required: true
