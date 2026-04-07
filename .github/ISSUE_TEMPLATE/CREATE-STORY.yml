@@ -1,10 +1,18 @@
 name: "💡 Create Story"
-description: Create a new ticket for a new story request
+description: Create a new ticket for a story
 title: "<title>"
 labels: [
   "Story"
 ]
 body:
+  - type: textarea
+    id: user_story
+    attributes:
+      label: "User Story"
+      description: Provide the user story needed to fulfill this feature
+      placeholder: As a [type of user], I want to [perform an action] so that [I can achieve a goal].
+    validations:
+      required: true
   - type: textarea
     id: summary
     attributes:
@@ -21,5 +29,17 @@ body:
       value: |
         Acceptance Criteria:
         - 
+    validations:
+      required: true
+  - type: textarea
+    id: definition_of_done
+    attributes:
+      label: "Definition of Done"
+      description: Indicate the overall definition of done for this story
+      value: |
+        - Code updated
+        - Test suite passing
+        - QA/Peer review completed
+        - Documentation updated
     validations:
       required: true
