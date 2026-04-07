@@ -1,0 +1,25 @@
+name: "💡 Create Story"
+description: Create a new ticket for a new story request
+title: "<title>"
+labels: [
+  "Story"
+]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: Provide a brief explanation of the feature
+      placeholder: Describe in a few lines your feature request
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: "Acceptance Criteria"
+      description: Indicate the acceptance criteria of this story
+      value: |
+        Acceptance Criteria:
+        - 
+    validations:
+      required: true
