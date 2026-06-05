@@ -2,4 +2,4 @@
 <!-- Provide a brief summary of the changes and the motivation behind them. -->
 
 ## Related Issues
-Closes VS-Tech-Consulting/VCT#XXX
+https://vstechconsulting.atlassian.net/browse/VST-XXX
